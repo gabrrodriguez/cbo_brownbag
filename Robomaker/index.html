@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hello, world!</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/webslides.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+  <title>AWS Robomaker Demo</title>
+</head>
+<body>
+  <main role="main">
+    <article id="webslides" class="horizontal">
+
+        <!-- Slide 1 -->
+        <section>
+            <span class="background" style="background-image:url('image/background.png')"></span>    
+            <div class="wrap">
+              <h1><strong>AWS Robomaker Service</strong></h1>
+              <p class="text-intro">
+                A Deloitte CBO Brown Bag session.
+              </p>
+            </div> 
+        </section>
+
+        <!-- Slide 2 -->
+        <section>
+          <div class="wrap">
+            <h2 class="aligncenter">What Problem Are We Trying to Solve?</h2>
+            <ul class="flexblock plans blink">
+              <li>
+                <a href="#" title="Purchase">
+                  <h2>What Is the Problem?</h2>
+                  <div>
+                    <span class="price">Testing...</span>
+                    <p>Autonomous robots require sophisticated software for capabilities such as navigation, perception, and object manipulation. This software requires comprehensive testing to ensure robots operate correctly in their environments.</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#" title="Purchase">
+                  <h2>Integrated Environment</h2>
+                  <div>
+                    <span class="price">Expensive...</span>
+                    <p>Testing software only with physical robots is manual process that slows down development and requires expensive hardware for each developer to test code with. Testing with computer-based simulation can also be difficult scale and manage, and can require large budgets and specialized skills.</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#" title="Purchase">
+                  <h2>A Solution</h2>
+                  <div>
+                    <span class="price">A Service...</span>
+                    <p>AWS RoboMaker Simulation makes it easy to test robot applications, so you can bring high-quality robots to market faster. With RoboMaker, developers can run hundreds of varied tests using virtual robots in a 3D simulation worlds.</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Slide 3 -->
+        <section>
+          <div class="wrap size-50">
+            <p class="text-subtitle">How it works...</p>
+            <h2>
+              <a href="https://aws.amazon.com/robomaker/">
+                AWS Robomaker
+              </a>
+            </h2>
+            <pre><img src="image/aws-robomaker-flow.png"/></pre>
+            <p>Use Cases</p>
+            <ul class="flexblock">
+              <li>
+                <!--div required = padding li or li>a-->
+                <div>
+                  <h3>Automated Regression Testing</h3>
+                  Automate testing within a continuous integration and continuous delivery (CI/CD) pipeline.
+                </div>
+              </li>
+              <li>
+                <div>
+                  <h3>Train reinforcement learning models</h3>
+                  Train reinforcement learning models with high volumes of iterative trials.
+                </div>
+              </li>
+              <li>
+                <div>
+                  <h3>Multi-robot testing</h3>
+                  Connect multiple concurrent simulations to your fleet management software for testing.
+                </div>
+              </li>
+            </ul>
+            <p>
+              <a href="https://github.com/aws-robotics/aws-robomaker-sample-application-helloworld" class="button">See Github Repo</a>
+            </p>
+          </div>
+        </section>
+
+        <!-- Slide 4 -->
+        <section id="section-32" class="slide current" style="">
+          <div class="wrap">
+            <p><code>Integration</code></p>
+            <ul class="flexblock gallery">
+              <li>
+                <a href="https://www.turtlebot.com/">
+                  <div class="overlay">
+                    <h2>Robot</h2>
+                    <p>Turtlebot3</p>
+                  </div>
+                  <img alt="Thumbnail " src="image/marilia-castelli-l74VaCZon7I-unsplash.jpg">
+                </a>
+              </li>
+              <li>
+                <a href="https://www.ros.org/">
+                  <div class="overlay">
+                    <h2>Software</h2>
+                    <p>Robot Operating System (ROS)</p>
+                  </div>
+                  <img alt="Thumbnail " src="image/radowan-nakif-rehan-cYyqhdbJ9TI-unsplash.jpg">
+                </a>
+              </li>
+              <li>
+                <a href="https://www.worldforge.org/">
+                  <div class="overlay">
+                    <h2>Environment</h2>
+                    <p>World Forge</p>
+                  </div>
+                  <img alt="Thumbnail " src="image/env.png">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+
+
+        <!-- Slide 5 -->
+        <section>
+          <div class="wrap">
+            <div class="grid">
+              <div class="column">
+                <h3 class="text-context">Benefits & Features</h3>
+                <p>Additional information can be obtained via AWS Titan Team Alliance member<a href="#">@couhborb</a>.</p>
+              </div>
+              <!-- end .column -->
+              <div class="column">
+                <h6>Increase speed and code quality.</h6>
+                <p>AWS RoboMaker Simulation enables you to easily run hundreds of varied test scenarios, making it possible to increase testing coverage and quickly resolve errors before problematic code reaches the robot. By running tests in simulation, you can identify edge cases and focus real-world testing only where it’s needed most. Comprehensive testing in simulation helps improve the quality of your robot and ultimately, speed up development velocity.</p>
+                <a href="https://aws.amazon.com/blogs/robotics/introducing-batch-simulation-api-for-aws-robomaker/">Batch Simulation API for AWS RoboMaker</a>
+                <br>
+                <p class="text-symbols">* * *</p>
+
+                <h6>Automated testing</h6>
+                <p>AWS RoboMaker Simulation enables you to integrate your robotics testing into an automated testing and release process, allowing you to rapidly deploy new features. With RoboMaker, you can automate batch simulations after each code check-in and for nightly integration testing. Automating your test and release process allows you to quickly and easily test each code change and catch bugs while they are small and simple to fix.</p>
+                <a href="https://aws.amazon.com/blogs/robotics/building-a-ros-application-ci-pipeline-with-aws-robomaker/">Integrate into CI/CD Pipeliine</a>
+              </div>
+              <!-- end .column -->
+              <div class="column">
+                <h6>Fast, easy simulation world creation</h6>
+                <p>AWS RoboMaker makes building simulation environments faster and affordable by providing simulation worlds and a variety of 3D assets. You can use these simulation assets to build simulation environments to match the level of fidelity you require. Additionally, AWS RoboMaker WorldForge enables developers to generate hundreds of user-defined, varied 3D indoor residential simulation worlds in minutes.
+                </p>
+                <br>  
+                <br>
+                <a href="https://aws.amazon.com/robomaker/resources/#Simulation_World_Assets">Simulation through World Forge</a>
+                <br>  
+                <p class="text-symbols">* * *</p>
+                <h6>Reduce hardware dependency</h6>
+                <p>AWS RoboMaker Simulation reduces the need to test software on expensive robot hardware and eliminates the need to provision, configure, or manage any infrastructure. RoboMaker Simulation provides fully managed compute infrastructure to develop and run your simulation and robot applications.</p>
+              </div>
+              <!-- end .column -->
+            </div>
+            <!-- end .grid -->
+          </div>
+        </section>
+
+        <!-- Slide 6 -->
+        <section class="aligncenter slide current" id="section-12" style="">
+          <!-- Overlay/Opacity: [class*="bg-"] > .background.dark or .light -->
+          <span class="background" style="background-image:url('https://source.unsplash.com/wn7Vdl8_yXc/1600x800')"></span>
+          <div class="wrap">
+            <h2 class="text-landing" style="color:white;"><strong>Demo</strong></h2>
+          </div>
+        </section>
+
+        <!-- Slide 7 -->
+        <section id="section-42" class="slide current" style="">
+          <div class="wrap">
+            <div class="content-left">
+              <h2>Proof Of Concept: Robotics Workstream</h2>
+            </div>
+            <!-- end .content-left -->
+            <div class="content-left">
+              <p>The effort in this demonstration was to generate a working prototype of AWS RoboMaker service for demonstration purposes to Deloitte Integrated Space and Mission Planning (ISAM) team. There was no prior working knowledge of AWS RoboMaker nor domain knowledge in integrated Robotics testing.</p>
+            </div>
+            <!-- end .content-left -->
+            <ul class="flexblock metrics">
+              <li> Working Prototypes
+                <span>3</span>
+              </li>
+              <li> Number of AWS Services
+                <span>9</span>
+              </li>
+              <li> Weeks
+                <span>6</span>
+              </li>
+              <li> Success
+                <span>?</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Slide 8 -->
+        <section id="section-39" class="slide current" style="">
+          <div class="wrap">
+            <div class="card-60 bg-white">
+              <figure>
+                <img src="https://source.unsplash.com/HoevDVvxInw/960x720" alt="Alhambra, Granada">
+              </figure>
+              <!-- end figure-->
+              <div class="flex-content">
+                <h2>
+                  Architecture
+                </h2>
+                <ul class="description">
+                  <li>
+                    <strong class="text-label">Effort Lead:</strong> Lars Cromley
+                  </li>
+                  <li>
+                    <strong class="text-label">Architects:</strong> Gabriel Rodriguez & David Pate
+                  </li>
+                  <li><strong class="text-label">Developer:</strong>Gabriel Rodriguez</li>
+                  <li><strong class="text-label">PMO</strong>Matthew Duke & Patience Opoku </li>
+                </ul>
+                <p>
+                  The architecture to follow is captured on Lucidchart and can be depicted <a href="https://lucid.app/lucidchart/97d7e978-9850-445f-ac46-d0ee451da581/edit?invitationId=inv_152a833a-a247-4a83-b016-0a0c09c63b27&page=8eRDY-EINoaH#">here</a>.
+                </p>
+              </div>
+              <!-- end .flex-content-->
+            </div>
+            <!-- .end .card50 -->
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <!-- Slide 9 -->
+        <section id="section-73" class="slide current" style="">
+          <div class="wrap">
+            <div class="content-left">
+              <h3>Backup Demo</h3>
+              <p>Should the AWS Demo not be available the capability demonstrated via the demo can be seen in the World Forge Video. The AWS RoboMaker service has more capability than just creating new worlds, but this video is short and displays the additional components needed to see a comprehensive demo.</p>
+            </div>
+            <!-- end .content-left -->
+            <div class="content-left">
+              <!-- <div class="embed"> = Responsive -->
+              <div class="embed">
+                <iframe width="1000" height="500" src="https://www.youtube.com/embed/tD-a2WNAsSs" title="AWS RoboMaker WorldForge Simplifies Creating Simulation Worlds for Robotics" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+              <!-- end .embed -->
+            </div>
+            <!-- end .content-left -->
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <section id="section-2" class="slide current" style="">
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap size-50 aligncenter">
+            <h2><strong>Lessons Learned</strong></h2>
+            <p class="text-intro">Good karma &amp; Productivity.</p>
+            <div class="bg-white shadow">
+              <ul class="flexblock reasons">
+                <li>
+                  <h2>An opportunity to engage.</h2>
+                  <p>AWS RoboMaker has much room for improvement on its documentation and examples. Gave us an opportunity to engage with AWS Titan Team and get acquainted with SMEs.</p>
+                </li>
+                <li>
+                  <h2>Resource Hog</h2>
+                  <p>You are running compute intensive simulation environments. Premium graphics processor family types and large compute capacity is required.</p>
+                </li>
+                <li>
+                  <h2>Hardware Operating System Knowledge will go far.</h2>
+                  <p>A firm understanding of <em>Python</em> and <strong>Robotic Operating System (ROS)</strong> will help improve the outcome of simulations jobs.</p>
+                </li>
+                <li>
+                  <h2>AWS Moya will be coming.</h2>
+                  <p>A follow on version of this service is in preview called AWS Moya. It has enhanced capability for robotics simulation specifically for AI enabled vision for autonomous vehicles.</p>
+                </li>
+                <li>
+                  <h2>Smartfactory Integration.</h2>
+                  <p>Discussion with Deloitte Smartfactory has been ongoing for this as well as other AWS simulation services. Discussion will continue and progress.</p>
+                </li>
+              </ul>
+            </div>
+            <!-- .end .bg-white shadow -->
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+
+        <!-- Final Slide -->
+        <section>
+          <div class="wrap">
+            <div class="content-right text-serif">
+              <h2>
+                <strong>Thanks.</strong>
+              </h2>
+              <p>It was a pleasure sharing insights during this brown bag session. If requiring further information please contact me.</p> 
+              <p><a href="#">gabrrodriguez@deloitte.com</a></p>
+            </div>
+          </div>
+        </section>
+    </article>
+  </main>
+  <script src="js/webslides.js"></script>
+  <script>
+    window.ws = new WebSlides();
+  </script>
+</body>
+</html>
